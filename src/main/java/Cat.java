@@ -1,5 +1,7 @@
-import java.util.Objects;
+import org.springframework.stereotype.Component;
 
+import java.util.Objects;
+@Component
 public class Cat {
     private String name;
 
